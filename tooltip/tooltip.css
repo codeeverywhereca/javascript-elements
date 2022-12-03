@@ -1,0 +1,29 @@
+.tooltip-outer {
+  position: fixed;
+  z-index: 999999;
+}
+
+.tooltip-inner {
+  background: #272725;
+  padding: 10px;
+  color: #dfdfdf;
+  font-size: 14px;
+  border-radius: 3px;
+  text-align: left;
+  max-width: 485px;
+}
+
+.tooltip-top-arrow, .tooltip-bottom-arrow {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+.tooltip-top-arrow {
+  border-bottom: 8px solid #272725;
+}
+
+.tooltip-bottom-arrow {
+  border-top: 8px solid #272725;
+}
